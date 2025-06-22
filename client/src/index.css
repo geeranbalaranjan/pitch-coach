@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.btn-green { @apply bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded; }
+.btn-red   { @apply bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded; }
