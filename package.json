@@ -1,0 +1,13 @@
+{
+  "name": "pitch-coach",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"node server/index.js\" \"npm --prefix client start\"",
+    "start:server": "node server/index.js",
+    "start:client": "npm --prefix client start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
