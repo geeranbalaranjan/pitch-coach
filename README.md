@@ -20,3 +20,4 @@ An AI-powered app that analyzes your startup pitch using speech and facial expre
    git clone https://github.com/your-username/pitch-coach.git
    cd pitch-coach
 
+![App UI](screenshots/demo.png)
